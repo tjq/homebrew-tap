@@ -4,11 +4,11 @@ cask "ext" do
 
   on_macos do
     on_intel do
-      sha256 "a5ab99438a6d2ff64f467c7b57273c272bc5da001f9f185b145804eb2dcfb1c4"
+      sha256 "0aef7a80430a76304b31bd95b28ab887d3998f7cde93683cf70863abf51dff3b"
       url "https://github.com/tjq/extendo-cli/releases/download/v#{version}/ext_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "c4f8299cfdc027bc0b198e86e7b548d9bf91db3a087062480e52613fbd86e554"
+      sha256 "2b3286c363e72d0e80385e42493f3f5f4dc10cd4fccf4148e6f7f92fec8a0de2"
       url "https://github.com/tjq/extendo-cli/releases/download/v#{version}/ext_#{version}_darwin_arm64.tar.gz"
     end
   end
