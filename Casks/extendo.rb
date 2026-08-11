@@ -1,6 +1,6 @@
 cask "extendo" do
-  version "1.3.0"
-  sha256 "228d7a76685573d320a2c26a4afe64e2b5d3ae64b9db78d49e4034fb09ffd4cc"
+  version "1.4.0"
+  sha256 "2e72719d8087b4ec2719d928ca4cde089748565063b7fe768e6d9697c687c7ac"
 
   url "https://github.com/tjq/homebrew-tap/releases/download/v#{version}/extendo-#{version}.zip",
       verified: "github.com/tjq/homebrew-tap/"
