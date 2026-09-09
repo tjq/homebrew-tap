@@ -1,6 +1,6 @@
 cask "tiltbar" do
-  version "0.1.0"
-  sha256 "6d76074244cd621d67827c855095f17ad57c84cd4c168ed5152bb9d34179d04b"
+  version "0.2.0"
+  sha256 "02c2d38d86b5f37f24d5c9cf1934ca1ed255ed2452814fddf2da6b2353e3d1c0"
 
   url "https://github.com/tjq/homebrew-tap/releases/download/tiltbar-v#{version}/TiltBar-#{version}.zip"
   name "TiltBar"
