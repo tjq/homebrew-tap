@@ -1,8 +1,8 @@
 cask "tiltbar" do
-  version "0.2.0"
-  sha256 "02c2d38d86b5f37f24d5c9cf1934ca1ed255ed2452814fddf2da6b2353e3d1c0"
+  version "0.3.0"
+  sha256 "44670cd8ba2539077883ae26f67b80a04b01bc13194bb3bdc993d0eb4deb062d"
 
-  url "https://github.com/tjq/homebrew-tap/releases/download/tiltbar-v#{version}/TiltBar-#{version}.zip"
+  url "https://github.com/tjq/tiltbar/releases/download/v#{version}/TiltBar-#{version}.zip"
   name "TiltBar"
   desc "Menu bar status and triggers for a running Tilt dev environment"
   homepage "https://github.com/tjq/tiltbar"
