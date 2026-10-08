@@ -1,6 +1,6 @@
 cask "tiltbar" do
-  version "0.3.1"
-  sha256 "07ec150769f3ca3cf6e068c5e5e71921bf479bd7a30f95b6d35614f4d03a54e0"
+  version "0.4.0"
+  sha256 "7e4e7935e0386560cd89fe2669850a18cf7b1176b7d344d49b903b40a126aa52"
 
   url "https://github.com/tjq/tiltbar/releases/download/v#{version}/TiltBar-#{version}.zip"
   name "TiltBar"
@@ -14,5 +14,6 @@ cask "tiltbar" do
   zap trash: [
     "~/Library/Preferences/com.tjq.tiltbar.plist",
     "~/Library/LaunchAgents/com.tjq.tiltbar.plist",
+    "~/Library/Logs/TiltBar",
   ]
 end
