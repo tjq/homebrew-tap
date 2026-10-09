@@ -1,6 +1,6 @@
 cask "tiltbar" do
-  version "0.4.0"
-  sha256 "7e4e7935e0386560cd89fe2669850a18cf7b1176b7d344d49b903b40a126aa52"
+  version "0.4.1"
+  sha256 "52f5e347863c7373897cce3ce59ebf09952b4bf88fea3c33899da79cb5025a09"
 
   url "https://github.com/tjq/tiltbar/releases/download/v#{version}/TiltBar-#{version}.zip"
   name "TiltBar"
